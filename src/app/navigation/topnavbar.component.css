@@ -12,17 +12,33 @@
 }
 
 .vrv-button-both{
-    border-style: none solid none solid;
+    border-style: none none none solid;
     border-color: #302e42;
     border-width: 3px;
     background-color: #1b1a26;
     color: white;
     border-radius: 0%;
     height: 50px;
+    width: 60px;
 }
 .vrv-button-both:hover{
     background-color: #302e42;
 }
+
+.vrv-button-wide{
+    border-style: none none none solid;
+    border-color: #302e42;
+    border-width: 3px;
+    background-color: #1b1a26;
+    color: white;
+    border-radius: 0%;
+    height: 50px;
+    width: 80px;
+}
+.vrv-button-wide:hover{
+    background-color: #302e42;
+}
+
 
 
 
