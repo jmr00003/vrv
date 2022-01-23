@@ -1,0 +1,39 @@
+.vrv-button{
+    border-style: none solid none none;
+    border-right-width: 3px;
+    border-right-color: #302e42;
+    background-color: #1b1a26;
+    color: white;
+    border-radius: 0%;
+    height: 50px;
+}
+.vrv-button:hover{
+    background-color: #302e42;
+}
+
+.vrv-button-both{
+    border-style: none solid none solid;
+    border-color: #302e42;
+    border-width: 3px;
+    background-color: #1b1a26;
+    color: white;
+    border-radius: 0%;
+    height: 50px;
+}
+.vrv-button-both:hover{
+    background-color: #302e42;
+}
+
+
+
+.vrv-navbackground{
+    background-color: #1b1a26;
+    padding: 0%;
+    height: 50px;
+}
+
+.vrv-searchscreen{
+    background-color: #1b1a26;
+    padding: 0%;
+    height: 40px;
+}

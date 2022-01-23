@@ -1,1 +1,44 @@
-This is a top bar!
+<nav class="navbar navbar-light vrv-navbackground fixed-top">
+  <div class="container-fluid">
+    <button class="vrv-button" type="submit">
+        <img src="/assets/VRV-Home.png" alt="" height="30">
+        VRV HOME
+        
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+            <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
+        </svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+        </svg>
+
+    </button>
+
+  <a class="navbar-brand" href="#">
+    <img src="/assets/VRV-Logo.png" alt="" height="30">
+  </a>
+
+
+    <a class="navbar-brand" href="#">Offcanvas navbar</a>
+    <button class="navbar-toggler vrv-button-both" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <img src="/assets/VRV-Search.png" alt="" height="30">
+    </button>
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      
+      <div class="offcanvas-body vrv-searchscreen">
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">
+              <img src="/assets/VRV-Search.png" alt="" height="30">
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+      
