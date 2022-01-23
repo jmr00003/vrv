@@ -38,27 +38,6 @@
 .vrv-button-wide:hover{
     background-color: #302e42;
 }
-
-
-
-
-.vrv-navbackground{
-    background-color: #1b1a26;
-    border-width: 5px;
-    padding: 0%;
-    height: 50px;
-}
-
-.vrv-searchscreen{
-    background-color: #1b1a26;
-    padding: 0%;
-    height: 40px;
-}
-
-.vrv-underbar{
-    background-color: #ffdd00;
-}
-
 .vrv-dark{
     background-color: #1b1a26;
 }
