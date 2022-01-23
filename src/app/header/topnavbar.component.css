@@ -54,3 +54,14 @@
     padding: 0%;
     height: 40px;
 }
+
+.vrv-underbar{
+    background-color: #ffdd00;
+}
+
+.vrv-dark{
+    background-color: #1b1a26;
+}
+.vrv-dark:hover{
+    background-color: #302e42;
+}
