@@ -44,6 +44,7 @@
 
 .vrv-navbackground{
     background-color: #1b1a26;
+    border-width: 5px;
     padding: 0%;
     height: 50px;
 }
