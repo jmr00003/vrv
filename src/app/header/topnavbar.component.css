@@ -10,6 +10,9 @@
 .vrv-button:hover{
     background-color: #302e42;
 }
+.vrv-button:focus{
+    background-color: #302e42;
+}
 
 .vrv-button-both{
     border-style: none none none solid;
@@ -38,9 +41,38 @@
 .vrv-button-wide:hover{
     background-color: #302e42;
 }
+.vrv-button-wide:focus{
+    background-color: #302e42;
+}
+
 .vrv-dark{
-    background-color: #1b1a26;
+    background-color: #302e42;
 }
 .vrv-dark:hover{
-    background-color: #302e42;
+    background-color: #474658;
+}
+
+input{
+    outline: none !important;
+    border-color: #302e42;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-radius: 0%;
+    border-width: 3px;
+    box-shadow:none;
+}
+input:focus { 
+    outline: none !important;
+    border-color: #ffdd00;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-radius: 0%;
+    box-shadow:none;
+}
+textarea:focus { 
+    outline: none !important;
+    border-color: none;
+    box-shadow: none;
 }
