@@ -1,0 +1,20 @@
+.vrv-light{
+    color: #b0aebb;
+}
+.vrv-light:hover{
+    color: white;
+}
+
+.vrv-white{
+    color: white;
+}
+
+.vrv-left{
+    text-align: left;
+}
+
+.vrv-footer{
+    background-color: #1b1a26;
+    padding-top: 100vh;
+    text-align: center;
+}

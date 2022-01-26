@@ -76,3 +76,85 @@ textarea:focus {
     border-color: none;
     box-shadow: none;
 }
+
+.vrv-no-shadow{
+    box-shadow: none;
+}
+
+.vrv-drop-left{
+    background-color: #302e42;
+    padding-top: 20px;
+    width: 400px;
+    left: 0;
+    right: auto;
+}
+
+.vrv-drop-right{
+    background-color: #302e42;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    left: auto;
+    right: 0;
+    width: 300px;
+}
+
+.vrv-divider{
+    color: #474658;
+    height: 5px;
+    opacity: 100;
+}
+
+.vrv-premium-divider{
+    margin-left: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #b0aebb;
+}
+
+.vrv-logo-padding{
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+.vrv-background{
+    margin-bottom: 100vh
+}
+
+.vrv-search-screen{
+    background-color: #1b1a26;
+    padding: 0%;
+    height: 40px;
+}
+
+.vrv-underbar{
+    height: 54px;
+    background-color: #ffdd00;
+}
+
+.vrv-navbar{
+    background-color: #1b1a26;
+    border-width: 5px;
+    padding: 0%;
+    height: 50px;
+}
+
+.vrv-arrow{
+    padding-left: 42px;
+}
+
+.vrv-close{
+    background-color: white;
+    float:right;
+    margin:8px;
+}
+
+.vrv-form{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.vrv-input{
+    width: 700px;
+    background-color: #1b1a26;
+    color:white;
+}
