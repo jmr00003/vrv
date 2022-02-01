@@ -1,0 +1,99 @@
+h2{
+    font-size: 14pt;
+    height: 24px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: normal;
+}
+h3{
+    font-size: 7pt;
+    height: 16px;
+    margin-bottom: 4px;
+    color: #b0aebb;
+    font-family: sans-serif;
+}
+p{
+    height:180px;
+    margin-bottom: 8px;
+    color: #b0aebb;
+}
+
+.vrv-card{
+    max-width: 1068px;
+    width: 1068px; 
+    border: none; 
+    border-radius: 0%; 
+    background-color: #302e42;
+}
+
+.vrv-card-info{
+    width: 543px;;
+}
+
+.vrv-card-image{
+    width: 525px;
+    height:300px
+}
+
+.vrv-episode{
+    color: #00b4ff;
+    font-size: 14px;
+}
+
+.vrv-right-padding{
+    padding-right: 3px;
+}
+
+.vrv-language{
+    color: #b0aebb;
+    font-size: 14px;
+    padding-right: 3px;
+}
+
+.vrv-comments{
+    color: #b0aebb;
+    margin-left: 330px;
+}
+
+.vrv-comments:hover{
+    color: white;
+}
+
+.vrv-play{
+    position: absolute; 
+    top: 150px;
+    left: 240px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    transform: translate(-50%,-50%);
+    opacity: 0.5;
+}
+
+.vrv-a-card{
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index: 5;
+}
+
+.vrv-a-card:hover{
+    background-color: white;
+    opacity: 0.12;
+}
+
+.vrv-time{
+    position: absolute; 
+    bottom: 0px;
+    left: 470px;
+    height: 25px;
+    width: 45px;
+    color: white;
+    background-color: black;
+    opacity: 0.5;
+    justify-content: center;
+    text-align: center;
+
+}
