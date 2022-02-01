@@ -33,9 +33,11 @@
 h1{
     color: white;
     padding-top: 20px;
-    padding-bottom: 16px;
+    height: 62px;
     font-size: 19px;
     font-weight: normal;
+    overflow: hidden;
+    text-overflow: clip;
 }
 
 p{

@@ -1,14 +1,22 @@
 <vrv-topnavbar>Loading...</vrv-topnavbar>
 
 <div class="container-fluid d-flex justify-content-center">
-    <vrv-show-card>Loading...</vrv-show-card>
-    <vrv-show-card>Loading...</vrv-show-card>
-    <vrv-show-card>Loading...</vrv-show-card>
+    <div *ngFor="let show of shows">
+        <vrv-show-card 
+            thumbnail={{show.thumbnail}} 
+            poster={{show.poster}} 
+            title={{show.title}} 
+            type={{show.type}} 
+            language={{show.language}}>
+            Loading...
+        </vrv-show-card>
+    </div>
 </div>
 
 <div class="container-fluid d-flex justify-content-center">
     <vrv-first-ep></vrv-first-ep>
 </div>
+
 
 
 
