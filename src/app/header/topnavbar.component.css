@@ -1,11 +1,16 @@
+.navbar-brand{
+    padding-right:35px;
+}
+
 .vrv-button{
     border-style: none solid none none;
-    border-right-width: 3px;
+    border-right-width: 1px;
     border-right-color: #302e42;
     background-color: #1b1a26;
     color: white;
     border-radius: 0%;
-    height: 50px;
+    height: 72px;
+    width: 299px;
 }
 .vrv-button:hover{
     background-color: #302e42;
@@ -14,15 +19,24 @@
     background-color: #302e42;
 }
 
+.vrv-watchlist-transform{
+    transform: translate(0,36%);
+}
+
+.vrv-shift{
+    position: relative;
+    top: 12px;
+}
+
 .vrv-button-both{
     border-style: none none none solid;
     border-color: #302e42;
-    border-width: 3px;
+    border-width: 1px;
     background-color: #1b1a26;
     color: white;
     border-radius: 0%;
-    height: 50px;
-    width: 60px;
+    height: 72px;
+    width: 74px;
 }
 .vrv-button-both:hover{
     background-color: #302e42;
@@ -31,18 +45,23 @@
 .vrv-button-wide{
     border-style: none none none solid;
     border-color: #302e42;
-    border-width: 3px;
+    border-width: 1px;
     background-color: #1b1a26;
     color: white;
     border-radius: 0%;
-    height: 50px;
-    width: 80px;
+    height: 72px;
+    width: 94px;
 }
 .vrv-button-wide:hover{
     background-color: #302e42;
 }
 .vrv-button-wide:focus{
     background-color: #302e42;
+}
+
+.vrv-logo-home{
+    margin-left: 12px;
+    margin-right: 10px;
 }
 
 .vrv-dark{
@@ -127,7 +146,7 @@ textarea:focus {
 }
 
 .vrv-underbar{
-    height: 52px;
+    height: 74px;
     background-color: #ffdd00;
 }
 
@@ -135,11 +154,11 @@ textarea:focus {
     background-color: #1b1a26;
     border-width: 5px;
     padding: 0%;
-    height: 50px;
+    height: 72px;
 }
 
 .vrv-arrow{
-    padding-left: 42px;
+    padding-left: 100px;
 }
 
 .vrv-close{
