@@ -24,6 +24,8 @@ p{
     border: none; 
     border-radius: 0%; 
     background-color: #302e42;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .vrv-card-info{

@@ -2,29 +2,4 @@
 
 <router-outlet></router-outlet>
 
-
-
-
-
-
-<div class="container-fluid d-flex justify-content-center">
-    <div *ngFor="let ep of firsteps">
-        <vrv-first-ep 
-            thumbnail={{ep.thumbnail}} 
-            title={{ep.title}} 
-            episode={{ep.episode}} 
-            type={{ep.type}} 
-            description={{ep.description}}
-            language={{ep.language}}
-            comments={{ep.comments}}
-            time={{ep.time}}>
-            Loading...
-        </vrv-first-ep>
-    </div>
-</div>
-
-
-
-
-
 <vrv-footer>Loading...</vrv-footer>

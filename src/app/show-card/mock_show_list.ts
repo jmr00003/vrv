@@ -33,7 +33,7 @@ export const mock_show_list = [
         type:"Series",
         language:"Sub | Dub",
         logo: "/assets/Crunchyroll-Banner.png",
-        route: ""
+        route: "/Accelerator"
     },
     {
         thumbnail:"/assets/show-card/thumbnail3.jpeg",

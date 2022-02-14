@@ -9,6 +9,7 @@ import { ShowCardComponent } from './show-card/show-card.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BlackCloverLayoutComponent } from './shows/black-clover/black-clover-layout.component';
 import { HomeLayoutComponent } from './homepage/home-layout.component';
+import { AcceleratorLayoutComponent } from './shows/accelerator/accelerator-layout.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HomeLayoutComponent } from './homepage/home-layout.component';
     ShowCardComponent,
     FirstEpisodeCardComponent,
     BlackCloverLayoutComponent,
-    HomeLayoutComponent
+    HomeLayoutComponent,
+    AcceleratorLayoutComponent
   ],
   imports: [
     BrowserModule,
