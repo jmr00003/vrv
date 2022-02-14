@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { FirstEpisodeCardComponent } from './first-episode-card/first-episode-card.component';
 import { FooterComponent } from './footer/footer.component';
 import { ShowCardComponent } from './show-card/show-card.component';
+import { AppRoutingModule } from './app-routing.module';
+import { BlackCloverLayoutComponent } from './shows/black-clover-layout.component';
 
 @NgModule({
   declarations: [
@@ -13,10 +15,12 @@ import { ShowCardComponent } from './show-card/show-card.component';
     TopNavBarComponent,
     FooterComponent,
     ShowCardComponent,
-    FirstEpisodeCardComponent
+    FirstEpisodeCardComponent,
+    BlackCloverLayoutComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
