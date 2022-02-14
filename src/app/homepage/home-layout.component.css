@@ -1,0 +1,9 @@
+.vrv-no-padding{
+    padding-left: 0; 
+    padding-right: 0;
+}
+
+.vrv-spacer{
+    padding-left: 23px;
+    padding-right: 23px;
+}

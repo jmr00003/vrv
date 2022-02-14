@@ -7,7 +7,8 @@ import { FirstEpisodeCardComponent } from './first-episode-card/first-episode-ca
 import { FooterComponent } from './footer/footer.component';
 import { ShowCardComponent } from './show-card/show-card.component';
 import { AppRoutingModule } from './app-routing.module';
-import { BlackCloverLayoutComponent } from './shows/black-clover-layout.component';
+import { BlackCloverLayoutComponent } from './shows/black-clover/black-clover-layout.component';
+import { HomeLayoutComponent } from './homepage/home-layout.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { BlackCloverLayoutComponent } from './shows/black-clover-layout.componen
     FooterComponent,
     ShowCardComponent,
     FirstEpisodeCardComponent,
-    BlackCloverLayoutComponent
+    BlackCloverLayoutComponent,
+    HomeLayoutComponent
   ],
   imports: [
     BrowserModule,

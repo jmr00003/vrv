@@ -5,7 +5,8 @@ export const mock_show_list = [
         title:"Black Clover",
         type:"Series",
         language:"Subtitled",
-        logo: "/assets/Crunchyroll-Banner.png"
+        logo: "/assets/Crunchyroll-Banner.png",
+        route: "/Black-Clover"
     },
     {
         thumbnail:"/assets/show-card/thumbnail2.jpeg",
@@ -13,7 +14,8 @@ export const mock_show_list = [
         title:"Attack on Titan",
         type:"Series",
         language:"Subtitled",
-        logo: "/assets/Crunchyroll-Banner.png"
+        logo: "/assets/Crunchyroll-Banner.png",
+        route: ""
     },
     {
         thumbnail:"/assets/show-card/thumbnail3.jpeg",
@@ -21,7 +23,8 @@ export const mock_show_list = [
         title:"Demon Slayer: Kimetsu no Yaiba",
         type:"Series",
         language:"Sub | Dub",
-        logo: "/assets/Crunchyroll-Banner.png"
+        logo: "/assets/Crunchyroll-Banner.png",
+        route: ""
     },
     {
         thumbnail:"/assets/show-card/thumbnail3.jpeg",
@@ -29,7 +32,8 @@ export const mock_show_list = [
         title:"Demon Slayer: Kimetsu no Yaiba",
         type:"Series",
         language:"Sub | Dub",
-        logo: "/assets/Crunchyroll-Banner.png"
+        logo: "/assets/Crunchyroll-Banner.png",
+        route: ""
     },
     {
         thumbnail:"/assets/show-card/thumbnail3.jpeg",
@@ -37,7 +41,8 @@ export const mock_show_list = [
         title:"Demon Slayer: Kimetsu no Yaiba",
         type:"Series",
         language:"Sub | Dub",
-        logo: "/assets/Crunchyroll-Banner.png"
+        logo: "/assets/Crunchyroll-Banner.png",
+        route: ""
     },
     {
         thumbnail:"/assets/show-card/thumbnail3.jpeg",
@@ -45,14 +50,7 @@ export const mock_show_list = [
         title:"Demon Slayer: Kimetsu no Yaiba",
         type:"Series",
         language:"Sub | Dub",
-        logo: "/assets/Crunchyroll-Banner.png"
-    },
-    {
-        thumbnail:"/assets/show-card/thumbnail3.jpeg",
-        poster:"/assets/show-card/poster3.jpeg",
-        title:"Demon Slayer: Kimetsu no Yaiba",
-        type:"Series",
-        language:"Sub | Dub",
-        logo: "/assets/Crunchyroll-Banner.png"
+        logo: "/assets/Crunchyroll-Banner.png",
+        route: ""
     }
 ];

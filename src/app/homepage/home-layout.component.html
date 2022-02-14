@@ -1,0 +1,26 @@
+<div class="container vrv-no-padding">
+    <div class="row">
+        <div class="col-1">
+
+        </div>
+        <div class="col-10 d-flex vrv-spacer">
+            <div class="row d-flex">
+                <div *ngFor="let show of shows" class="col-4 vrv-no-padding">
+                    <vrv-show-card 
+                        thumbnail={{show.thumbnail}} 
+                        poster={{show.poster}} 
+                        title={{show.title}} 
+                        type={{show.type}} 
+                        language={{show.language}}
+                        logo={{show.logo}}
+                        route={{show.route}}>
+                        Loading...
+                    </vrv-show-card>
+                </div>
+            </div>
+        </div>
+        <div class="col-1">
+
+        </div>
+    </div>
+</div>

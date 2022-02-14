@@ -11,14 +11,11 @@ import { ShowItemModel } from './show-card/show-item.model';
 })
 export class AppComponent {
   title = 'vrv';
-  shows: ShowItemModel [] = [];
   firsteps: FirstEpisodeModel [] = [];
 
+  
+  
   constructor(){
-    for(var show of mock_show_list){
-      this.shows.push(show);
-    }
-
     for(var ep of mock_first_list){
       this.firsteps.push(ep);
     }

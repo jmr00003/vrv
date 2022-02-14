@@ -12,6 +12,7 @@ export class ShowCardComponent{
     @Input() type: string;
     @Input() language: string;
     @Input() logo: string;
+    @Input() route: string;
 
     constructor(){
         this.thumbnail = "/assets/show-card/Blank-Thumbnail.png";
@@ -20,5 +21,6 @@ export class ShowCardComponent{
         this.type = "XXXXX";
         this.language = "No Language";
         this.logo = "/assets/Crunchyroll-Banner.png";
+        this.route = "";
     }
 }
