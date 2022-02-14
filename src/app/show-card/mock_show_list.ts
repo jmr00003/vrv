@@ -22,5 +22,37 @@ export const mock_show_list = [
         type:"Series",
         language:"Sub | Dub",
         logo: "/assets/Crunchyroll-Banner.png"
+    },
+    {
+        thumbnail:"/assets/show-card/thumbnail3.jpeg",
+        poster:"/assets/show-card/poster3.jpeg",
+        title:"Demon Slayer: Kimetsu no Yaiba",
+        type:"Series",
+        language:"Sub | Dub",
+        logo: "/assets/Crunchyroll-Banner.png"
+    },
+    {
+        thumbnail:"/assets/show-card/thumbnail3.jpeg",
+        poster:"/assets/show-card/poster3.jpeg",
+        title:"Demon Slayer: Kimetsu no Yaiba",
+        type:"Series",
+        language:"Sub | Dub",
+        logo: "/assets/Crunchyroll-Banner.png"
+    },
+    {
+        thumbnail:"/assets/show-card/thumbnail3.jpeg",
+        poster:"/assets/show-card/poster3.jpeg",
+        title:"Demon Slayer: Kimetsu no Yaiba",
+        type:"Series",
+        language:"Sub | Dub",
+        logo: "/assets/Crunchyroll-Banner.png"
+    },
+    {
+        thumbnail:"/assets/show-card/thumbnail3.jpeg",
+        poster:"/assets/show-card/poster3.jpeg",
+        title:"Demon Slayer: Kimetsu no Yaiba",
+        type:"Series",
+        language:"Sub | Dub",
+        logo: "/assets/Crunchyroll-Banner.png"
     }
 ];

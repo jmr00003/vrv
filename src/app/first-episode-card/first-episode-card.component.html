@@ -1,35 +1,32 @@
 <div class="card mb-3 vrv-card">
     <div class="row g-0">
         <span class="d-flex">
-            <img src="/assets/CSA-FirstEp.jpeg" class="img-fluid vrv-card-image" alt="...">
+            <img src={{thumbnail}} class="img-fluid vrv-card-image" alt="...">
             
             <div class="card-body">
                 <div>
-                    <h3>A CERTAIN SCIENTIFIC ACCELERATOR</h3>
+                    <h3>{{title}}</h3>
                 </div>
                 <div>
-                    <h2>E1 - Accelerator (Academy City's Mightiest Esper)</h2>
+                    <h2>{{episode}}</h2>
                 </div>
                 <div>
                     <p>
-                        The day arrives for Accelerator's bandages to come off after
-                        he is shot in the head, and Last Order is eager to celebrate.
-                        A secret weapon is stolen from an atmospheric research facility,
-                        and the culprits seem to be targeting Accelerator with it.
+                        {{description}}
                     </p>
                 </div>
                 <div>
-                    <span class="vrv-episode vrv-right-padding">Episode </span>
+                    <span class="vrv-episode vrv-right-padding">{{type}}</span>
                     <span class="vrv-language">
                         <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" fill="currentColor"
                             class="bi bi-diamond-fill vrv-right-padding" viewBox="0 0 16 16">
                             <path fill-rule="evenodd"
                                 d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 0 1 0-2.098L6.95.435z" />
                         </svg>
-                        Subtitled
+                        {{language}}
                     </span>
                     <span class="vrv-comments">
-                        267
+                        {{comments}}
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-square-dots-fill" viewBox="0 0 16 16">
                             <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.5a1 1 0 0 0-.8.4l-1.9 2.533a1 1 0 0 1-1.6 0L5.3 12.4a1 1 0 0 0-.8-.4H2a2 2 0 0 1-2-2V2zm5 4a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
                           </svg>
@@ -46,6 +43,6 @@
         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
         <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
       </svg>
-    <p class="vrv-time">23m</p>
+    <p class="vrv-time">{{time}}m</p>
     
 </div>
