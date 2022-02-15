@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
     selector: 'vrv-topnavbar',
@@ -6,5 +6,11 @@ import { Component } from "@angular/core";
     styleUrls: ['topnavbar.component.css']
 })
 export class TopNavBarComponent{
+    @Input() location: string;
+    @Input() bgcolor: string;
 
+    constructor(){
+        this.location = "/assets/VRV-Location.png";
+        this.bgcolor = "#ffdd00";
+    }
 }

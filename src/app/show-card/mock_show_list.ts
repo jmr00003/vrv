@@ -31,7 +31,7 @@ export const mock_show_list = [
         poster:"/assets/show-card/poster4.jpeg",
         title:"A Certain Scientific Accelerator",
         type:"Series",
-        language:"Sub | Dub",
+        language:"Subtitled",
         logo: "/assets/Crunchyroll-Banner.png",
         route: "/Accelerator"
     },

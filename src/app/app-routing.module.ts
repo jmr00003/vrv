@@ -8,6 +8,9 @@ import { AttackOnTitanLayoutComponent } from './shows/attack-on-titan/attack-on-
 import { DemonSlayerLayoutComponent } from './shows/demon-slayer/demon-slayer-layout.component';
 import { NarutoShippudenLayoutComponent } from './shows/naruto-shippuden/naruto-shippuden-layout.component';
 import { MyHeroAcademiaLayoutComponent } from './shows/my-hero-academia/my-hero-academia-layout.component';
+import { CrunchyrollLayoutComponent } from './crunchyroll-page/crunchyroll.component';
+import { MondoLayoutComponent } from './mondo-page/mondo.component';
+import { VRVSelectLayoutComponent } from './vrv-select-page/vrv-select.component';
 
 const routes:Routes = [
   {path: '', component: HomeLayoutComponent},
@@ -17,7 +20,10 @@ const routes:Routes = [
   {path: 'Attack-On-Titan', component: AttackOnTitanLayoutComponent},
   {path: 'Demon-Slayer', component: DemonSlayerLayoutComponent},
   {path: 'Naruto-Shippuden', component: NarutoShippudenLayoutComponent},
-  {path: 'My-Hero-Academia', component: MyHeroAcademiaLayoutComponent}
+  {path: 'My-Hero-Academia', component: MyHeroAcademiaLayoutComponent},
+  {path: 'Crunchyroll', component: CrunchyrollLayoutComponent},
+  {path: 'Mondo', component: MondoLayoutComponent},
+  {path: 'VRV-Select', component: VRVSelectLayoutComponent}
 ];
 
 @NgModule({

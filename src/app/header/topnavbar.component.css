@@ -27,7 +27,7 @@
 
 .vrv-shift{
     position: absolute; 
-    top: 30%; 
+    top: 18%; 
     left: 8px
 }
 
@@ -150,7 +150,6 @@ textarea:focus {
 
 .vrv-underbar{
     height: 74px;
-    background-color: #ffdd00;
     margin-bottom: 15px;
 }
 

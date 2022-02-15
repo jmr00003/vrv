@@ -1,7 +1,7 @@
 <nav class="navbar navbar-light vrv-underbar">
   Testing
 </nav>
-<nav class="navbar navbar-light fixed-top vrv-underbar">
+<nav class="navbar navbar-light fixed-top vrv-underbar" [style.background-color]="bgcolor">
   Testing
 </nav>
 <nav class="navbar navbar-light fixed-top vrv-navbar">
@@ -9,11 +9,10 @@
 
     <button class="btn vrv-button vrv-no-shadow" type="button" data-bs-toggle="dropdown"
         aria-expanded="false">
-      <span class="vrv-shift">
-        <img src="/assets/VRV-Home.png" class="vrv-logo-home" alt="" height="30">
-        VRV HOME
-        <img class="vrv-arrow" src="/assets/Arrows.png" alt="" height="30">
-      </span>
+      
+        <img class="vrv-shift" src={{location}} alt="" height="50">
+        
+   
 
 
     </button>
@@ -24,14 +23,14 @@
       <li>
         <p class="vrv-premium-divider">PREMIUM CHANNELS</p>
       </li>
-      <li><a class="dropdown-item vrv-dark" href="https://vrv.co/crunchyroll">
+      <li><a class="dropdown-item vrv-dark" href="/Crunchyroll">
           <img class="vrv-logo-padding" src="/assets/Crunchyroll-Text.png" alt="" height="68">
         </a></li>
-      <li><a class="dropdown-item vrv-dark" href="https://vrv.co/mondo">
+      <li><a class="dropdown-item vrv-dark" href="/Mondo">
           <img class="vrv-logo-padding" src="/assets/Mondo-Text.png" alt="" height="68">
         </a></li>
 
-      <li><a class="dropdown-item vrv-dark vrv-logo-padding vrv-background" href="https://vrv.co/vrvselect">
+      <li><a class="dropdown-item vrv-dark vrv-logo-padding vrv-background" href="/VRV-Select">
           <img src="/assets/VRV-Select-Text-2.png" alt="" height="60">
         </a></li>
     </ul>

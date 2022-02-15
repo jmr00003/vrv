@@ -14,6 +14,9 @@ import { AttackOnTitanLayoutComponent } from './shows/attack-on-titan/attack-on-
 import { DemonSlayerLayoutComponent } from './shows/demon-slayer/demon-slayer-layout.component';
 import { NarutoShippudenLayoutComponent } from './shows/naruto-shippuden/naruto-shippuden-layout.component';
 import { MyHeroAcademiaLayoutComponent } from './shows/my-hero-academia/my-hero-academia-layout.component';
+import { CrunchyrollLayoutComponent } from './crunchyroll-page/crunchyroll.component';
+import { MondoLayoutComponent } from './mondo-page/mondo.component';
+import { VRVSelectLayoutComponent } from './vrv-select-page/vrv-select.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { MyHeroAcademiaLayoutComponent } from './shows/my-hero-academia/my-hero-
     AttackOnTitanLayoutComponent,
     DemonSlayerLayoutComponent,
     NarutoShippudenLayoutComponent,
-    MyHeroAcademiaLayoutComponent
+    MyHeroAcademiaLayoutComponent,
+    CrunchyrollLayoutComponent,
+    MondoLayoutComponent,
+    VRVSelectLayoutComponent
   ],
   imports: [
     BrowserModule,
