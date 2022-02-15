@@ -13,7 +13,7 @@ export class FirstEpisodeCardComponent {
     @Input() type: string;
     @Input() language: string;
     @Input() comments: string;
-    @Input() time: string;
+    @Input() time: number;
 
     constructor(){
         this.thumbnail = "/assets/first-episode/First-Ep-Blank.png";
@@ -23,6 +23,6 @@ export class FirstEpisodeCardComponent {
         this.type = "No Type";
         this.language = "None";
         this.comments = "XXXX";
-        this.time = "0";
+        this.time = 0;
     }
 }

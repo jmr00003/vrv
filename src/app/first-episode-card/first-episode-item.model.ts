@@ -6,9 +6,9 @@ export class FirstEpisodeModel {
     type: string;
     language: string;
     comments: string;
-    time: string;
+    time: number;
 
-    constructor(thumbnail: string, title: string, episode: string, description: string, type: string, language: string, comments: string, time:string){
+    constructor(thumbnail: string, title: string, episode: string, description: string, type: string, language: string, comments: string, time:number){
         this.thumbnail = thumbnail;
         this.title = title;
         this.episode = episode;

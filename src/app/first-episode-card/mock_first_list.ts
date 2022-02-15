@@ -7,6 +7,6 @@ export const mock_first_list = [
         type: "Episode",
         language: "Subtitled",
         comments: "267",
-        time: "23"
+        time: 23
     }
 ];
