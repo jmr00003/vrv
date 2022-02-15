@@ -1,0 +1,28 @@
+Main Features:
+  Added “app-routing.module.ts” to be used for website routing
+      Routes added for all show pages listed below.
+      Routes added for Home Page, Crunchyroll Page, Mondo Page, and VRV Select Page
+  Moved majority of app.component.html code to corresponding routes
+      Homepage material moved to “home-layout.component.html”
+      First Episode Cards moved to each corresponding component in format name “ShowName¬-layout.component.html”
+          “accelerator-layout.component”
+          “attack-on-titan-layout.component”
+          “black-clover-layout.component”
+          “demon-slayer-layout.component”
+          “my-hero-academia-layout.component”
+          “naruto-shippuden-layout.component”
+  CSS Style Binding added to “topnavbar.component.html” to allow for changing Navbar depending on which route is being displayed
+  Layout for the Homepage was reorganized using Bootstrap col and row. 
+Bonus Features
+  Added the following attributes to the class “first-episode-card.component.ts”
+      Thumbnail
+      Title
+      Episode
+      Description
+      Type
+      Language
+      Comments
+      Time
+  Added data binding to the corresponding attributes in “first-epsiode-card.component.html”
+  Created Instances of “first-episode-card.component” for each route corresponding to each show card on the “home-layout.component”
+
