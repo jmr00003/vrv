@@ -2,6 +2,7 @@
     padding-right:35px;
 }
 
+
 .vrv-button{
     border-style: none solid none none;
     border-right-width: 1px;
@@ -12,20 +13,22 @@
     height: 72px;
     width: 299px;
 }
-.vrv-button:hover{
-    background-color: #302e42;
-}
 .vrv-button:focus{
     background-color: #302e42;
 }
+.vrv-button:hover{
+    background-color: #302e42;
+}
+
 
 .vrv-watchlist-transform{
     transform: translate(0,36%);
 }
 
 .vrv-shift{
-    position: relative;
-    top: 12px;
+    position: absolute; 
+    top: 30%; 
+    left: 8px
 }
 
 .vrv-button-both{

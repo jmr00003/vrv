@@ -15,7 +15,7 @@ export const mock_show_list = [
         type:"Series",
         language:"Subtitled",
         logo: "/assets/Crunchyroll-Banner.png",
-        route: ""
+        route: "/Attack-On-Titan"
     },
     {
         thumbnail:"/assets/show-card/thumbnail3.jpeg",
@@ -24,33 +24,33 @@ export const mock_show_list = [
         type:"Series",
         language:"Sub | Dub",
         logo: "/assets/Crunchyroll-Banner.png",
-        route: ""
+        route: "/Demon-Slayer"
     },
     {
-        thumbnail:"/assets/show-card/thumbnail3.jpeg",
-        poster:"/assets/show-card/poster3.jpeg",
-        title:"Demon Slayer: Kimetsu no Yaiba",
+        thumbnail:"/assets/show-card/thumbnail4.jpeg",
+        poster:"/assets/show-card/poster4.jpeg",
+        title:"A Certain Scientific Accelerator",
         type:"Series",
         language:"Sub | Dub",
         logo: "/assets/Crunchyroll-Banner.png",
         route: "/Accelerator"
     },
     {
-        thumbnail:"/assets/show-card/thumbnail3.jpeg",
-        poster:"/assets/show-card/poster3.jpeg",
-        title:"Demon Slayer: Kimetsu no Yaiba",
+        thumbnail:"/assets/show-card/thumbnail5.jpeg",
+        poster:"/assets/show-card/poster5.jpeg",
+        title:"Naruto Shippuden",
         type:"Series",
-        language:"Sub | Dub",
+        language:"Subtitled",
         logo: "/assets/Crunchyroll-Banner.png",
-        route: ""
+        route: "/Naruto-Shippuden"
     },
     {
-        thumbnail:"/assets/show-card/thumbnail3.jpeg",
-        poster:"/assets/show-card/poster3.jpeg",
-        title:"Demon Slayer: Kimetsu no Yaiba",
+        thumbnail:"/assets/show-card/thumbnail6.jpeg",
+        poster:"/assets/show-card/poster6.jpeg",
+        title:"My Hero Academia",
         type:"Series",
-        language:"Sub | Dub",
+        language:"Subtitled",
         logo: "/assets/Crunchyroll-Banner.png",
-        route: ""
+        route: "/My-Hero-Academia"
     }
 ];

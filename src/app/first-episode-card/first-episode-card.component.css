@@ -4,18 +4,27 @@ h2{
     margin-bottom: 10px;
     color: white;
     font-weight: normal;
+    inline-size: 511px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 h3{
-    font-size: 7pt;
+    font-size: 7.5pt;
     height: 16px;
     margin-bottom: 4px;
     color: #b0aebb;
     font-family: sans-serif;
+    text-transform: uppercase;
 }
 p{
     height:180px;
     margin-bottom: 8px;
+    font-size: 0.95rem;
     color: #b0aebb;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
 }
 
 .vrv-card{
