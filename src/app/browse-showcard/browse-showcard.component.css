@@ -1,0 +1,86 @@
+.container{
+    padding:0;
+}
+
+.vrv-a-card{
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+}
+
+.vrv-a-card:hover{
+    background-color: white;
+    opacity: 0.12;
+}
+
+.card-body{
+    padding:0;
+    height: 110px;
+}
+.card{
+    border:0;
+    border-radius: 0;
+    background-color: #302e42;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 21rem;
+}
+
+h1{
+    color: white;
+    padding-top: 20px;
+    height: 62px;
+    font-size: 17px;
+    font-weight: normal;
+    overflow: hidden;
+    text-overflow: clip;
+    margin-right: 15px;
+}
+
+p{
+    color:lightskyblue;
+    font-size: 14px;
+}
+
+.vrv-info1{
+    color: #00b4ff;
+    font-size: 14px;
+}
+
+.vrv-info2{
+    color: #b0aebb;
+    font-size: 14px;
+}
+
+.vrv-small-image{
+    height: 10rem; 
+    width:auto; 
+    position: relative; 
+    bottom: 4.5rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0 0 6px black;
+    border-radius: 0;
+}
+
+.vrv-space-right{
+    padding-right: 3px;
+}
+
+.vrv-logo{
+    position: absolute;
+    height:30px;
+    top:13px;
+    right:13px;
+    background-color: #302e42;
+    border-radius: 100%;
+    padding:4px;
+}
+
+.vrv-logo:hover{
+    background-color: #f47521;
+}

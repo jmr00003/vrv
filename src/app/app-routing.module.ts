@@ -11,6 +11,7 @@ import { MyHeroAcademiaLayoutComponent } from './shows/my-hero-academia/my-hero-
 import { CrunchyrollLayoutComponent } from './crunchyroll-page/crunchyroll.component';
 import { MondoLayoutComponent } from './mondo-page/mondo.component';
 import { VRVSelectLayoutComponent } from './vrv-select-page/vrv-select.component';
+import { BrowseAllComponent } from './browse-all/browse-all.component';
 
 const routes:Routes = [
   {path: '', component: HomeLayoutComponent},
@@ -23,7 +24,8 @@ const routes:Routes = [
   {path: 'My-Hero-Academia', component: MyHeroAcademiaLayoutComponent},
   {path: 'Crunchyroll', component: CrunchyrollLayoutComponent},
   {path: 'Mondo', component: MondoLayoutComponent},
-  {path: 'VRV-Select', component: VRVSelectLayoutComponent}
+  {path: 'VRV-Select', component: VRVSelectLayoutComponent},
+  {path: 'browse', component: BrowseAllComponent}
 ];
 
 @NgModule({

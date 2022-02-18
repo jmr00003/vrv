@@ -17,6 +17,8 @@ import { MyHeroAcademiaLayoutComponent } from './shows/my-hero-academia/my-hero-
 import { CrunchyrollLayoutComponent } from './crunchyroll-page/crunchyroll.component';
 import { MondoLayoutComponent } from './mondo-page/mondo.component';
 import { VRVSelectLayoutComponent } from './vrv-select-page/vrv-select.component';
+import { BrowseAllComponent } from './browse-all/browse-all.component';
+import { BrowseShowcardComponent } from './browse-showcard/browse-showcard.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { VRVSelectLayoutComponent } from './vrv-select-page/vrv-select.component
     MyHeroAcademiaLayoutComponent,
     CrunchyrollLayoutComponent,
     MondoLayoutComponent,
-    VRVSelectLayoutComponent
+    VRVSelectLayoutComponent,
+    BrowseAllComponent,
+    BrowseShowcardComponent
   ],
   imports: [
     BrowserModule,
