@@ -43,7 +43,7 @@ export const mock_browse_list = [
         thumbnail:"/assets/browse-card/Thumbnail6.jpeg",
         title:"A Destructive God Sits Next to Me",
         type:"Series",
-        language:"Sub",
+        language:"Sub | Dub",
         logo: "/assets/Crunchyroll-Banner.png",
         route: ""
     },
@@ -51,7 +51,7 @@ export const mock_browse_list = [
         thumbnail:"/assets/browse-card/Thumbnail7.jpeg",
         title:"A Lull in the Sea (Nagi-Asu: Nagi no Asukara)",
         type:"Series",
-        language:"Sub",
+        language:"Dub",
         logo: "/assets/Crunchyroll-Banner.png",
         route: ""
     },
@@ -59,7 +59,7 @@ export const mock_browse_list = [
         thumbnail:"/assets/browse-card/Thumbnail8.jpeg",
         title:"A Place Further Than the Universe",
         type:"Series",
-        language:"Sub",
+        language:"Sub | Dub",
         logo: "/assets/Crunchyroll-Banner.png",
         route: ""
     },
@@ -67,7 +67,7 @@ export const mock_browse_list = [
         thumbnail:"/assets/browse-card/Thumbnail9.jpeg",
         title:"A Sister's All You Need.",
         type:"Series",
-        language:"Sub",
+        language:"Sub | Dub",
         logo: "/assets/Crunchyroll-Banner.png",
         route: ""
     },
