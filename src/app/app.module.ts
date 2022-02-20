@@ -19,6 +19,7 @@ import { MondoLayoutComponent } from './mondo-page/mondo.component';
 import { VRVSelectLayoutComponent } from './vrv-select-page/vrv-select.component';
 import { BrowseAllComponent } from './browse-all/browse-all.component';
 import { BrowseShowcardComponent } from './browse-showcard/browse-showcard.component';
+import { BrowseNavbarComponent } from './browse-navbar/browse-navbar.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { BrowseShowcardComponent } from './browse-showcard/browse-showcard.compo
     MondoLayoutComponent,
     VRVSelectLayoutComponent,
     BrowseAllComponent,
-    BrowseShowcardComponent
+    BrowseShowcardComponent,
+    BrowseNavbarComponent
   ],
   imports: [
     BrowserModule,

@@ -1,2 +1,43 @@
 <vrv-topnavbar bgcolor="#ffdd00" location="/assets/VRV-Location.png" >Loading...</vrv-topnavbar>
+
+<div style="height: 600px;">
+
+</div>
+
+<vrv-browse-navbar></vrv-browse-navbar>
+
+
+<div class="container vrv-no-padding">
+    <div class="row">
+        <div class="col-1">
+
+        </div>
+        <div class="col-10 d-flex vrv-spacer">
+            <div class="row d-flex">
+                <div *ngFor="let show of shows" class="col-2 vrv-no-padding">
+                    <vrv-browse-showcard 
+                        thumbnail={{show.thumbnail}} 
+                        title={{show.title}} 
+                        type={{show.type}} 
+                        language={{show.language}}
+                        logo={{show.logo}}
+                        route={{show.route}}>
+                        Loading...
+                    </vrv-browse-showcard>
+                </div>
+            </div>
+        </div>
+        <div class="col-1">
+
+        </div>
+    </div>
+</div>
+
+
+
 <vrv-browse-showcard></vrv-browse-showcard>
+
+
+<div style="height: 1800px;">
+
+</div>

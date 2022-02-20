@@ -15,11 +15,11 @@ export class BrowseShowcardComponent implements OnInit {
   @Input() route: string;
 
   constructor(){
-    this.thumbnail = "/assets/show-card/Blank-Thumbnail.png";
+    this.thumbnail = "/assets/browse-card/Blank-Browse-Thumbnail.png";
     this.poster = "/assets/show-card/Blank-Poster.png";
-    this.title = "No Title Provided";
+    this.title = "No Title";
     this.type = "XXXXX";
-    this.language = "No Language";
+    this.language = "None";
     this.logo = "/assets/Crunchyroll-Banner.png";
     this.route = "";
 }

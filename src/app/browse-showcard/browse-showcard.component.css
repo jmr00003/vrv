@@ -23,22 +23,25 @@
     border:0;
     border-radius: 0;
     background-color: #302e42;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    width: 21rem;
+    margin: 15px;
+    width: 150px;
+    height: 319px;
+}
+
+.card-img-top{
+    border-radius: 0;
 }
 
 h1{
     color: white;
     padding-top: 20px;
-    height: 62px;
-    font-size: 17px;
+    height: 50px;
+    font-size: 13px;
     font-weight: normal;
     overflow: hidden;
     text-overflow: clip;
-    margin-right: 15px;
+    margin-right: 13px;
+    margin-left:13px
 }
 
 p{
@@ -48,12 +51,13 @@ p{
 
 .vrv-info1{
     color: #00b4ff;
-    font-size: 14px;
+    font-size: 13px;
+    margin-left:13px
 }
 
 .vrv-info2{
     color: #b0aebb;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .vrv-small-image{
@@ -74,8 +78,8 @@ p{
 .vrv-logo{
     position: absolute;
     height:30px;
-    top:13px;
-    right:13px;
+    top:213px;
+    right:108px;
     background-color: #302e42;
     border-radius: 100%;
     padding:4px;
@@ -83,4 +87,14 @@ p{
 
 .vrv-logo:hover{
     background-color: #f47521;
+}
+
+.vrv-border{
+    border-top: 2px;
+    border-color: #f47521;
+}
+
+.vrv-divider{
+    background-color: orange; 
+    height: 2px
 }
