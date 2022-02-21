@@ -12,6 +12,10 @@
     color: white;
 }
 
+.vrv-navbar-see-through{
+    background: rgba(27, 26, 38, 0.9);
+}
+
 body{
     position: relative;
 }
@@ -25,10 +29,33 @@ body{
     color: #b0aebb;
 }
 
+.vrv-placement{
+    padding: 0; 
+    margin: 0; 
+    position: absolute; 
+    left: 175px;
+    top: 13px;
+}
+
+.vrv-overlay{
+    font-size: 22px;
+    color: transparent;   
+}
+
+.vrv-overlay.active{
+    color: white;
+    background-color: transparent;
+}
+
 .vrv-active:hover{
     background-color: #474658;
 }
 
 .vrv-dropdown{
     background-color: #302e42;
+    left: 15px; 
+    border-radius:0; 
+    width:240px; 
+    max-height: 360px;
+    overflow-y: auto;
 }
