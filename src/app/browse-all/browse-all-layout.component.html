@@ -1,0 +1,92 @@
+<vrv-topnavbar bgcolor="#ffdd00" location="/assets/VRV-Location.png" >Loading...</vrv-topnavbar>
+
+<div style="height: 600px;">
+
+</div>
+
+<vrv-browse-navbar></vrv-browse-navbar>
+
+<div data-bs-spy="scroll" data-bs-target="#navbar-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+    
+    <div id="scrollspyHeading1">
+        <div class="vrv-box" ></div>
+        <span class="vrv-category">
+            A is for A Bridge to the Starry Skies - Hoshizora e Kakaru Hashi
+        </span>
+
+        <div class="container vrv-no-padding">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10 d-flex vrv-spacer">
+                    <vrv-browse-large-card
+                    thumbnail = "/assets/browse-card/BigThumbnailA.jpeg"
+                    poster = "/assets/browse-card/BigPosterA.jpeg"
+                    title = "A Bridge to the Starry Skies - Hoshizora e Kakaru Hashi"
+                    type = "Series"
+                    language = "Subtitled"
+                    description = "Kazuma Hoshino moves to the beautiful countryside to take care of his little brother, Ayumu Hoshino. They ended up  they getting lost on their way to the Japanese Inn."
+                    route = "">
+                    Loading...
+
+                    </vrv-browse-large-card>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+        
+       
+
+
+
+        <div class="container vrv-no-padding">
+            <div class="row">
+                <div class="col-1">
+        
+                </div>
+                <div class="col-10 d-flex vrv-spacer">
+                    <div class="row d-flex">
+                        <div *ngFor="let show of shows" class="col-2 vrv-no-padding">
+                            <vrv-browse-showcard 
+                                thumbnail={{show.thumbnail}} 
+                                title={{show.title}} 
+                                type={{show.type}} 
+                                language={{show.language}}
+                                logo={{show.logo}}
+                                route={{show.route}}>
+                                Loading...
+                            </vrv-browse-showcard>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1">
+        
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="scrollspyHeading2">
+        <div class="vrv-box"></div>
+        <span class="vrv-category">
+            B is for B-PROJECT
+        </span>
+
+    </div>    
+
+    <div id="scrollspyHeading3">
+        <div class="vrv-box"></div>
+        <span class="vrv-category">
+            C is for Calamity of a Zombie Girl
+        </span>
+
+    </div>    
+</div>
+
+
+
+
+
+
+<div style="height: 1800px;">
+
+</div>

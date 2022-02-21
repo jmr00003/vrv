@@ -14,6 +14,8 @@
 
 .vrv-navbar-see-through{
     background: rgba(27, 26, 38, 0.9);
+    height: 58px; 
+    transform: translateY(74px);
 }
 
 body{
@@ -33,7 +35,7 @@ body{
     padding: 0; 
     margin: 0; 
     position: absolute; 
-    left: 175px;
+    left: 379px;
     top: 13px;
 }
 
@@ -58,4 +60,29 @@ body{
     width:240px; 
     max-height: 360px;
     overflow-y: auto;
+    inline-size: 240px;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    text-overflow:clip;
+}
+
+.vrv-dropdown::after{
+    background-image: linear-gradient(90deg,rgba(48,46,66,0),#302e42);
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 3rem;
+}
+
+.vrv-click{
+    margin-left:165px; 
+    width: 800px
+}
+
+.vrv-dropdown-bar{
+    width: 1000px; 
+    color: transparent
 }

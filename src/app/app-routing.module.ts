@@ -11,7 +11,7 @@ import { MyHeroAcademiaLayoutComponent } from './shows/my-hero-academia/my-hero-
 import { CrunchyrollLayoutComponent } from './crunchyroll-page/crunchyroll.component';
 import { MondoLayoutComponent } from './mondo-page/mondo.component';
 import { VRVSelectLayoutComponent } from './vrv-select-page/vrv-select.component';
-import { BrowseAllComponent } from './browse-all/browse-all.component';
+import { BrowseAllComponent } from './browse-all/browse-all-layout.component';
 
 const routes:Routes = [
   {path: '', component: HomeLayoutComponent},

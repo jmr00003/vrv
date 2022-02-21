@@ -17,9 +17,10 @@ import { MyHeroAcademiaLayoutComponent } from './shows/my-hero-academia/my-hero-
 import { CrunchyrollLayoutComponent } from './crunchyroll-page/crunchyroll.component';
 import { MondoLayoutComponent } from './mondo-page/mondo.component';
 import { VRVSelectLayoutComponent } from './vrv-select-page/vrv-select.component';
-import { BrowseAllComponent } from './browse-all/browse-all.component';
+import { BrowseAllComponent } from './browse-all/browse-all-layout.component';
 import { BrowseShowcardComponent } from './browse-showcard/browse-showcard.component';
 import { BrowseNavbarComponent } from './browse-navbar/browse-navbar.component';
+import { BrowseLargeCardComponent } from './browse-large-card/browse-large-card.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { BrowseNavbarComponent } from './browse-navbar/browse-navbar.component';
     VRVSelectLayoutComponent,
     BrowseAllComponent,
     BrowseShowcardComponent,
-    BrowseNavbarComponent
+    BrowseNavbarComponent,
+    BrowseLargeCardComponent
   ],
   imports: [
     BrowserModule,

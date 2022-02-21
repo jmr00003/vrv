@@ -21,7 +21,7 @@ export const mock_browse_list = [
         type:"Series",
         language:"Sub",
         logo: "/assets/Crunchyroll-Banner.png",
-        route: ""
+        route: "Accelerator"
     },
     {
         thumbnail:"/assets/browse-card/Thumbnail4.jpeg",

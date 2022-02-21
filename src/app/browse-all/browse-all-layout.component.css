@@ -32,3 +32,12 @@ body{
 .vrv-dropdown{
     background-color: #302e42;
 }
+
+.vrv-category{
+    margin-left: 395px; 
+    font-size: 22px;
+}
+
+.vrv-box{
+    height: 89px;
+}
