@@ -1,0 +1,56 @@
+.card-body{
+    padding:0;
+    height: 332px;
+    width: 525px;
+    
+}
+.card{
+    border-left:0;
+    border-right: 0;
+    border-bottom: 0;
+    border-radius: 0;
+    background-color: #302e42;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 525px;
+    height: 334px;
+    border-top: 2px;
+    border-color: #ffdd00;
+    border-style: solid; 
+}
+
+h1{
+    color: white;
+    padding-top: 20px;
+    height: 62px;
+    font-size: 17px;
+    font-weight: normal;
+    overflow: hidden;
+    text-overflow: clip;
+    margin-right: 15px;
+}
+
+.vrv-center{
+    text-align: center;
+}
+p{
+    font-family: sans-serif;
+}
+
+.vrv-header{
+    color: #f9f9fa;
+    margin-top: 4px;
+    font-size: 20px;
+}
+
+.vrv-pricing{
+    color: #f9f9fa;
+    font-size: 16px;
+}
+
+.vrv-description{
+    color: #b0aebb;
+    font-size: 14px;
+}

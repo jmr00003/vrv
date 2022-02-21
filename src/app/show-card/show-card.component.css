@@ -11,8 +11,11 @@
 }
 
 .vrv-a-card:hover{
-    background-color: white;
-    opacity: 0.12;
+    background: rgba(255, 255, 255, 0.12);
+}
+
+a.vrv-a-card:hover a img.vrv-logo{
+    background-color: #f47521;
 }
 
 .card-body{
@@ -31,7 +34,7 @@
 }
 
 h1{
-    color: white;
+    color: #f9f9fa;
     padding-top: 20px;
     height: 62px;
     font-size: 17px;

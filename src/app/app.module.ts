@@ -21,6 +21,7 @@ import { BrowseAllComponent } from './browse-all/browse-all-layout.component';
 import { BrowseShowcardComponent } from './browse-showcard/browse-showcard.component';
 import { BrowseNavbarComponent } from './browse-navbar/browse-navbar.component';
 import { BrowseLargeCardComponent } from './browse-large-card/browse-large-card.component';
+import { VrvPremiumCardComponent } from './vrv-premium-card/vrv-premium-card.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { BrowseLargeCardComponent } from './browse-large-card/browse-large-card.
     BrowseAllComponent,
     BrowseShowcardComponent,
     BrowseNavbarComponent,
-    BrowseLargeCardComponent
+    BrowseLargeCardComponent,
+    VrvPremiumCardComponent
   ],
   imports: [
     BrowserModule,
