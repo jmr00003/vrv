@@ -22,6 +22,7 @@ import { BrowseShowcardComponent } from './browse-showcard/browse-showcard.compo
 import { BrowseNavbarComponent } from './browse-navbar/browse-navbar.component';
 import { BrowseLargeCardComponent } from './browse-large-card/browse-large-card.component';
 import { VrvPremiumCardComponent } from './vrv-premium-card/vrv-premium-card.component';
+import { VrvHomeTopCardComponent } from './vrv-home-top-card/vrv-home-top-card.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { VrvPremiumCardComponent } from './vrv-premium-card/vrv-premium-card.com
     BrowseShowcardComponent,
     BrowseNavbarComponent,
     BrowseLargeCardComponent,
-    VrvPremiumCardComponent
+    VrvPremiumCardComponent,
+    VrvHomeTopCardComponent
   ],
   imports: [
     BrowserModule,
