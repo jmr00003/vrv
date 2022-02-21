@@ -43,14 +43,41 @@ p{
     color: #f9f9fa;
     margin-top: 4px;
     font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .vrv-pricing{
     color: #f9f9fa;
     font-size: 16px;
+    margin-bottom: 10px;
 }
 
 .vrv-description{
     color: #b0aebb;
-    font-size: 14px;
+    font-size: 13px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.vrv-button{
+    background-color: #ffdd00;
+    border-radius: 0; 
+    box-shadow: none; 
+    margin-left:29px; 
+    border:0; 
+    height: 54px; 
+    width: 249px;
+}
+
+.vrv-button:hover{
+    background-color: #ffea62;
+}
+
+.vrv-button:active{
+    background-color: #d8bb00;
+    box-shadow: none; 
+}
+
+.vrv-button-text{
+    transform: translate(-3px,-1px);
 }
