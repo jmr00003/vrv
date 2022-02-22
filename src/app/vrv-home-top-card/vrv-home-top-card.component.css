@@ -85,7 +85,7 @@ p{
     color: #ffdd00;
     background-color: transparent;
     position: absolute;
-    left: 615px;
+    left: 705px;
     bottom: 40px
 }
 
@@ -119,7 +119,7 @@ p{
 
 .vrv-shift{
     position: relative;
-    left:615px;
+    left:705px;
     bottom: 112px;
 }
 
@@ -133,7 +133,7 @@ p{
     width: 140px; 
     position: absolute; 
     top: 72px;
-    left: 435px;
+    left: 525px;
     margin-left: 20px;
     margin-right: 20px;
     box-shadow: 0 0 5px black, 3px 3px 10px black, -3px -3px 10px black;
@@ -148,7 +148,7 @@ p{
     position: absolute;
     height:30px;
     top:72px;
-    right:485px;
+    right:545px;
     background-color: #302e42;
     border-radius: 100%;
     padding:4px;
