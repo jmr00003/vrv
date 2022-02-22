@@ -22,7 +22,7 @@
 }
 
 h1{
-    color: white;
+    color: #f9f9fa;
     padding-top: 20px;
     height: 62px;
     font-size: 17px;
@@ -80,4 +80,13 @@ p{
 
 .vrv-button-text{
     transform: translate(-3px,-1px);
+}
+
+.vrv-image{
+    margin-left: 215px; 
+    margin-top: 25px;
+}
+
+.card{
+    margin-left: 57px;
 }

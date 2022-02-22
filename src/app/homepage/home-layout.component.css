@@ -35,3 +35,7 @@ h3{
     transform: translateY(-1.5px) !important;
     margin-left:3px !important;
 }
+
+.vrv-col-space{
+    margin-left: 40px;
+}

@@ -98,3 +98,7 @@ p{
     background-color: #f47521; 
     height: 2px
 }
+
+.card-body{
+    height: 92px;
+}
