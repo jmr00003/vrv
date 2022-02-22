@@ -7,7 +7,6 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class BrowseShowcardComponent implements OnInit {
   @Input() thumbnail: string;
-  @Input() poster: string;
   @Input() title: string;
   @Input() type: string;
   @Input() language: string;
@@ -16,7 +15,6 @@ export class BrowseShowcardComponent implements OnInit {
 
   constructor(){
     this.thumbnail = "/assets/browse-card/Blank-Browse-Thumbnail.png";
-    this.poster = "/assets/show-card/Blank-Poster.png";
     this.title = "No Title";
     this.type = "XXXXX";
     this.language = "None";
