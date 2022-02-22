@@ -23,6 +23,7 @@ import { BrowseNavbarComponent } from './browse-navbar/browse-navbar.component';
 import { BrowseLargeCardComponent } from './browse-large-card/browse-large-card.component';
 import { VrvPremiumCardComponent } from './vrv-premium-card/vrv-premium-card.component';
 import { VrvHomeTopCardComponent } from './vrv-home-top-card/vrv-home-top-card.component';
+import { CreateAccountComponent } from './create-account/create-account.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { VrvHomeTopCardComponent } from './vrv-home-top-card/vrv-home-top-card.c
     BrowseNavbarComponent,
     BrowseLargeCardComponent,
     VrvPremiumCardComponent,
-    VrvHomeTopCardComponent
+    VrvHomeTopCardComponent,
+    CreateAccountComponent
   ],
   imports: [
     BrowserModule,

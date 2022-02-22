@@ -1,5 +1,16 @@
 .container{
     padding:0;
+    height: 306px;
+}
+
+.vrv-container.container{
+    height: 306px;
+}
+
+.vrv-container{
+    height: 306px;
+    width: 1428px;
+    overflow: hidden;
 }
 
 .vrv-a-card{
@@ -10,9 +21,6 @@
     left:0;
 }
 
-.vrv-a-card:hover{
-    background: rgba(255, 255, 255, 0.12);
-}
 
 a.vrv-a-card:hover a img.vrv-logo{
     background-color: #f47521;
@@ -20,23 +28,37 @@ a.vrv-a-card:hover a img.vrv-logo{
 
 .card-body{
     padding:0;
-    height: 110px;
+    height: 0px;
+    transform: translateY(-100px);
 }
 .card{
     border:0;
     border-radius: 0;
-    background-color: #302e42;
+    background-color: transparent;
     margin-top: 15px;
-    margin-bottom: 15px;
-    height: 306px;
+    margin-bottom: 85px;
+    height: 266px;
     width: 100%;
 }
+
+a.background{
+    height: 100%;
+    width: 100%;
+    opacity: 0.16;
+    transform: rotateZ(0.95deg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    background-image: url(https://static.vrv.co/imgsrv/display/thumbnail/800x450/catalog/crunchyroll/10c808d2548ed4dbb54f7cce4c1ea979.jpeg);
+}
+
 
 h1{
     color: #f9f9fa;
     padding-top: 20px;
-    height: 62px;
+    height: 42px;
     font-size: 17px;
+    margin-bottom: 0;
     font-weight: normal;
     overflow: hidden;
     text-overflow: clip;
@@ -53,19 +75,68 @@ p{
     font-size: 14px;
 }
 
+.vrv-start-watching{
+    width: 235px;
+    height: 52px;
+    border-style: solid;
+    border-radius: 0;
+    border-width: 2px;
+    border-color: #ffdd00;
+    color: #ffdd00;
+    background-color: transparent;
+    position: absolute;
+    left: 615px;
+    bottom: 40px
+}
+
+.vrv-start-watching:hover{
+    background-color: #ffea62;
+    color: black;
+    border-color: #ffea62;
+}
+
+.vrv-watching{
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+.vrv-play-shift{
+    transform: translateY(-4px);
+}
+
+.vrv-show-overlay{
+    position: relative;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    opacity: 0;
+}
+
+.vrv-show-overlay:hover{
+    opacity: 1;
+}
+
+.vrv-shift{
+    position: relative;
+    left:615px;
+    bottom: 112px;
+}
+
 .vrv-info2{
     color: #b0aebb;
     font-size: 14px;
 }
 
 .vrv-small-image{
-    height: 10rem; 
-    width:auto; 
-    position: relative; 
-    bottom: 4.5rem;
+    height: 210px; 
+    width: 140px; 
+    position: absolute; 
+    top: 72px;
+    left: 435px;
     margin-left: 20px;
     margin-right: 20px;
-    box-shadow: 0 0 6px black;
+    box-shadow: 0 0 5px black, 3px 3px 10px black, -3px -3px 10px black;
     border-radius: 0;
 }
 
@@ -76,8 +147,8 @@ p{
 .vrv-logo{
     position: absolute;
     height:30px;
-    top:13px;
-    right:13px;
+    top:72px;
+    right:485px;
     background-color: #302e42;
     border-radius: 100%;
     padding:4px;
@@ -85,11 +156,4 @@ p{
 
 .vrv-logo:hover{
     background-color: #f47521;
-}
-
-.card-img-top{
-    height: 306px;
-    width: 100%;
-    margin-bottom: -306px;
-    border-radius: 0;
 }

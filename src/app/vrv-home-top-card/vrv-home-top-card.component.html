@@ -1,9 +1,10 @@
 <div class="card">
-    <img src={{thumbnail}} class="card-img-top" alt="...">
+    <a class="background"></a>
     <div class="card-body d-flex">
+        
         <span class="d-flex">
-            <img src={{poster}} class="card-img-top vrv-small-image" alt="...">
-            <div>
+            
+            <div class="vrv-shift">
                 <h1 class="card-text">{{title}}</h1>
                 <span class="vrv-info1 vrv-space-right">{{type}} </span>
                 <span class="vrv-info2">
@@ -14,14 +15,29 @@
                     </svg>
                     {{language}}
                 </span>
+                <div>
+                    
+                </div>
+                
             </div>
         </span>
 
 
     </div>
-    <a class="vrv-a-card" routerLink={{route}}>
+    <a class="vrv-a-card">
         <a href="/Crunchyroll">
+            <a href="Test" class="btn vrv-start-watching">
+                <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="currentColor" class="bi bi-play-fill vrv-play-shift" viewBox="0 0 16 16">
+                    <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                </svg>
+                <span class="vrv-watching">Start Watching</span>
+            </a>
             <img src={{logo}} class="vrv-logo">
+            <a class="" href="Series">
+                <img src={{poster}} class="card-img-top vrv-small-image" alt="...">
+                <img src="assets/Coverphoto-VRV.png" class="card-img-top vrv-small-image vrv-show-overlay" alt="...">
+            </a>
+            
         </a>
     </a>
     
