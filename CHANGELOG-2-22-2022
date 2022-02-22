@@ -1,0 +1,29 @@
+Main Features
+    Added a new card at the bottom of the “home-layout.component” page named “vrv-premium-card.component”. Basic card with no attributes.
+    Added a new card component toward the top of the “home-layout.component” page named “vrv-home-top-card.component”. Included are five attributes:
+        Poster
+        Title
+        Type
+        Language
+        Logo
+    Added a new form component at the top of the “home-layout.component” page named “create-account.component”. Form has two inputs fields and no inputted attributes. 
+    Added a new programmatic card component in “browse-all-layout.component” page named “browse-showcard.component”. Utilizes a mock list named “mock-browse-list.ts”, had instances created using ngFor, and includes six attributes.
+        Thumbnail
+        Title
+        Type
+        Language
+        Logo
+        Route
+    Added a new navbar component in “browse-all-layout.component” page named “browse-navbar.component”. Navbar includes a dropdown menu that allows you to jump to the various letter categories specified on the browse page. 
+    Added a new card component in “browse-all-layout.component” page named “browse-large-card.component”. Included are seven attributes:
+        Thumbnail
+        Poster
+        Title
+        Type
+        Language
+        Description
+        Route
+    All new components organized using flex/col/row where applicable.
+Bonus Features
+    Added new layout named “browse-all-layout.component” to organize the components that would go in the VRV Browse All Page
+    Added Routing to the new page from the “home-layout.component” with a ‘View All’ Link at the top of the page.
