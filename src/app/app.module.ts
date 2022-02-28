@@ -24,6 +24,8 @@ import { BrowseLargeCardComponent } from './browse-large-card/browse-large-card.
 import { VrvPremiumCardComponent } from './vrv-premium-card/vrv-premium-card.component';
 import { VrvHomeTopCardComponent } from './vrv-home-top-card/vrv-home-top-card.component';
 import { CreateAccountComponent } from './create-account/create-account.component';
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './user-info/user-info.component';
 
 @NgModule({
   declarations: [
@@ -48,11 +50,13 @@ import { CreateAccountComponent } from './create-account/create-account.componen
     BrowseLargeCardComponent,
     VrvPremiumCardComponent,
     VrvHomeTopCardComponent,
-    CreateAccountComponent
+    CreateAccountComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
