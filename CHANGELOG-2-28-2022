@@ -1,0 +1,5 @@
+Main Features:
+    Created a new firebase database named “vrv-” to be used with the website.
+    Created a new component named “user-info.component” that pulls data from the database and displays is using fluid-container with flex-row and flex-col.
+    Created a model component for the user info named “user-info.model.ts” to user with the information that is imported from the database. 
+    Imported the HttpClientModule to “app.module.ts”
