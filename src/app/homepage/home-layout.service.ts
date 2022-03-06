@@ -1,23 +1,21 @@
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { ShowItemModel } from "../show-card/show-item.model";
+import { AngularFireDatabase} from '@angular/fire/compat/database'
 
 @Injectable(
     {providedIn: 'root'}
 )
 export class ShowCardService{
-    private baseUrl:string="https://vrv-ca29d-default-rtdb.firebaseio.com/";
-    private showCardEndpoint:string="home-showcard.json";
-
-    constructor(private http:HttpClient){
+    constructor(private db: AngularFireDatabase){
 
     }
 
     getShows(){
-        return this.http.get<ShowItemModel []>(this.baseUrl + this.showCardEndpoint);
+        return this.db.list<ShowItemModel>("home-showcard").valueChanges();
     }
 
     getShow(index: number){
-        return this.http.get<ShowItemModel []>(this.baseUrl + 'home-showcard' + '/' + index + '.json');
+        
     }
 }

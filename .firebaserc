@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "vrv-ca29d"
+  },
+  "targets": {
+    "vrv-ca29d": {
+      "hosting": {
+        "vrv": [
+          "vrv-ca29d"
+        ]
+      }
+    }
+  }
+}
