@@ -12,6 +12,7 @@ import { CrunchyrollLayoutComponent } from './crunchyroll-page/crunchyroll.compo
 import { MondoLayoutComponent } from './mondo-page/mondo.component';
 import { VRVSelectLayoutComponent } from './vrv-select-page/vrv-select.component';
 import { BrowseAllComponent } from './browse-all/browse-all-layout.component';
+import { AddShowcardComponent } from './add-showcard/add-showcard.component';
 
 const routes:Routes = [
   {path: '', component: HomeLayoutComponent},
@@ -25,7 +26,8 @@ const routes:Routes = [
   {path: 'Crunchyroll', component: CrunchyrollLayoutComponent},
   {path: 'Mondo', component: MondoLayoutComponent},
   {path: 'VRV-Select', component: VRVSelectLayoutComponent},
-  {path: 'browse', component: BrowseAllComponent}
+  {path: 'browse', component: BrowseAllComponent},
+  {path: 'admin', component: AddShowcardComponent}
 ];
 
 @NgModule({

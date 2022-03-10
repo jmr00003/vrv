@@ -1,0 +1,58 @@
+<vrv-topnavbar bgcolor="#ffdd00" location="/assets/VRV-Location.png" >Loading...</vrv-topnavbar>
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <form #postForm="ngForm" (ngSubmit)="addShow(postForm.value)">
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Thumbnail Path:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="thumbnail">
+                </div>
+        
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Poster Path:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="poster">
+                </div>
+       
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Title:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="title">
+                </div>
+       
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Type:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="type">
+                </div>
+    
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Language:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="language">
+                </div>
+     
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Logo Path:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="logo">
+                </div>
+      
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Route:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="route">
+                </div>
+       
+        <button type="submit" class="btn btn-light">Add show</button>
+    </form>
+    </div>
+</div>

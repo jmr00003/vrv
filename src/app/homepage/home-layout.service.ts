@@ -18,4 +18,8 @@ export class ShowCardService{
     getShow(index: number){
         
     }
+
+    addShow(show: ShowItemModel){
+        this.db.list<ShowItemModel>("products").push(show);
+    }
 }
