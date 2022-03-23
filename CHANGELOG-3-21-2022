@@ -1,0 +1,4 @@
+Main Features:
+    Refactored “home-layout.service.ts” to use @angular/fire to pull data from the database to be used on the website.
+    Removed HttpClient dependency and injected an AngularFireDatabase dependency.
+    Deployed web application to https://vrv-ca29d.web.app/ using firebase.
