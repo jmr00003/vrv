@@ -1,0 +1,6 @@
+Main Features:
+    Added a admin page for adding showcards named “add-showcard.component”. Accessed using the route “/admin”
+    Added the routing necessary in “app-routing.module.ts” to allow for accessing the admin page.
+    Within the admin page, added a form that allows for the specification of all the data needed for a “show-card.component”.
+    Added the ‘addShow()’ method to “home-layout.service.ts” to allow for information to be sent to the backend database.
+    Within the admin component named “add-showcard.component.html”, used the addShow() method to push all the information entered to the database.
