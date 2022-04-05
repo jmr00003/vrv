@@ -33,6 +33,7 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AddShowcardComponent } from './add-showcard/add-showcard.component';
 import { FormsModule } from '@angular/forms';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 @NgModule({
   declarations: [
@@ -59,7 +60,8 @@ import { FormsModule } from '@angular/forms';
     VrvHomeTopCardComponent,
     CreateAccountComponent,
     UserInfoComponent,
-    AddShowcardComponent
+    AddShowcardComponent,
+    AuthenticationComponent
   ],
   imports: [
     BrowserModule,
