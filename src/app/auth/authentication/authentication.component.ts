@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { Router } from '@angular/router';
+import { Observable } from 'rxjs';
 import { AuthenticationService } from './authentication.service';
+import { AuthResponse } from './authResponse';
 
 @Component({
   selector: 'vrv-authentication',
@@ -8,28 +11,41 @@ import { AuthenticationService } from './authentication.service';
   styleUrls: ['./authentication.component.css']
 })
 export class AuthenticationComponent implements OnInit {
+  public buttonClicked!:string;
+  private authObservable!:Observable<AuthResponse>;
 
-  constructor(private auth:AuthenticationService) { }
+  constructor(private auth:AuthenticationService, private router:Router) { }
 
   ngOnInit(): void {
   }
 
   onSubmit(data:NgForm){
-    console.log("Button clicked");
+    console.log("Button clicked = " + this.buttonClicked);
     console.log(data.value);
 
-
-    this.auth.signup(data.value.email, data.value.password).subscribe(
+    if(this.buttonClicked == 'SignUp'){
+      this.authObservable = this.auth.signup(data.value.email, data.value.password);
+    }
+    if(this.buttonClicked == 'Login'){
+      this.authObservable = this.auth.login(data.value.email, data.value.password);
+    }
+    
+    this.authObservable.subscribe(
       
-      data => {
+      (data:AuthResponse) => {
         console.log(data);
+        this.router.navigate(['']);
       },
       error => {
         console.log(error);
       }
     )
 
-    data.reset();
+    data.resetForm();
+  }
+
+  onCLick(buttonType:string){
+
   }
 
 }
