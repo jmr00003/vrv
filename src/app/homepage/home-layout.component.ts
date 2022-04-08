@@ -14,10 +14,15 @@ export class HomeLayoutComponent implements OnInit{
     private user!: Subscription;
     public isAuthenticated:boolean = false;
     shows: ShowItemModel [] = [];
-    constructor(private showCardsService:ShowCardService, private authentication:AuthenticationService){
+    constructor(private authentication:AuthenticationService, private showCardsService:ShowCardService){
       
     }
   ngOnInit(): void {
+
+    this.user = this.authentication.user.subscribe(user => {
+      this.isAuthenticated = !user ? false : true;
+    });
+    
     this.showCardsService.getShows().subscribe((data: ShowItemModel[]) => {
       console.log("Fetching home shows");
       for(var show of data){
@@ -26,9 +31,6 @@ export class HomeLayoutComponent implements OnInit{
       }
     });
 
-    this.user = this.authentication.user.subscribe(user => {
-      console.log("testing");
-      this.isAuthenticated = !user ? false : true;
-    })
+    
   }
 }
