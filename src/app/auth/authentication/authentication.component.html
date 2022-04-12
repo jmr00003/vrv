@@ -12,6 +12,8 @@
                     <span class="input-group-text">Password</span>
                     <input type="password" class="form-control" placeholder="Password" ngModel name="password" required password minlength="8">
                 </div>
+                <p class="vrv-red" *ngIf="failedLogin">Incorrect Username or Password!</p>
+                <p class="vrv-red" *ngIf="takenAccount">Email already taken!</p>
                 <button class="btn" type="submit" [disabled]="!authForm.valid" (click)="buttonClicked='Login'">
                     Login
                 </button>

@@ -14,6 +14,8 @@ import { AuthResponse } from './authResponse';
 export class AuthenticationComponent implements OnInit {
   public buttonClicked!:string;
   private authObservable!:Observable<AuthResponse>;
+  public failedLogin:boolean = false;
+  public takenAccount:boolean = false;
 
   constructor(private auth:AuthenticationService, private router:Router) { }
 
@@ -39,6 +41,15 @@ export class AuthenticationComponent implements OnInit {
       },
       error => {
         console.log(error);
+        console.log(error.error.error.message);
+        if(error.error.error.message == "INVALID_PASSWORD" || error.error.error.message == "EMAIL_NOT_FOUND"){
+          this.failedLogin = true;
+          this.takenAccount = false;
+        }
+        if(error.error.error.message == "EMAIL_EXISTS"){
+          this.takenAccount = true;
+          this.failedLogin = false;
+        }
       }
     )
 
