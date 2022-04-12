@@ -4,7 +4,7 @@ import { By } from '@angular/platform-browser';
 import { BrowseShowcardComponent } from './browse-showcard.component';
 
 
-describe('FirstEpisodeCardComponent', () => {
+describe('BrowseShowcardComponent', () => {
   let component: BrowseShowcardComponent;
   let fixture: ComponentFixture<BrowseShowcardComponent>;
   let cardDe: DebugElement;
