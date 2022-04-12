@@ -1,0 +1,4 @@
+Main Features:
+•	Added 2 unit tests for app component under “app.component.spec.ts”
+•	Added 4 unit tests for browse card under “browse-showcard.component.spec.ts”
+•	Added 4 unit tests for first episode show card under “first-episode-card.component.spec.ts”
