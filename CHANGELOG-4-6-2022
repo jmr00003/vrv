@@ -1,0 +1,8 @@
+Main Features:
+•	Enabled Firebase authentication
+•	Created an authentication component “authentication.component” under the authentication directory.
+•	Created an authentication service to communicate with the backend “authentication.service.ts” under the authentication directory.
+•	Added messages in HTML for auth component “authentication.component.html” that only appears if either an incorrect email/password is entered or if the user is trying to create an account with an already used email. 
+Bonus Features:
+•	Added User Model in “user.model.ts” within the authentication directory.
+•	Added Firebase Authentication implemented through auth page login that brings back all of the database card components.
